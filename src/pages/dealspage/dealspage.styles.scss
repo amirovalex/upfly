@@ -1,0 +1,18 @@
+.dealgrid {
+	height:100vh;
+	display:grid;
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
+	border:1px solid rgb(82, 143, 170);
+
+	div {
+		display:flex;
+		justify-content: center;
+		align-items: center;
+		border:1px solid rgb(82, 143, 170);
+	}
+}
+
+.last {
+	grid-column:2/4;
+}
